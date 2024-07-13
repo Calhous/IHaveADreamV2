@@ -1,0 +1,117 @@
+[gd_scene load_steps=2 format=3 uid="uid://cke3m2onqpkj2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lytfx"]
+
+[node name="LetterDice" type="Node2D"]
+
+[node name="DiceA1" type="AnimatedSprite2D" parent="."]
+position = Vector2(417, 176)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceA1"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceA2" type="AnimatedSprite2D" parent="."]
+position = Vector2(517, 173)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceA2"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceA3" type="AnimatedSprite2D" parent="."]
+position = Vector2(617, 173)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceA3"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceA4" type="AnimatedSprite2D" parent="."]
+position = Vector2(722, 173)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceA4"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceB1" type="AnimatedSprite2D" parent="."]
+position = Vector2(417, 280)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceB1"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceB2" type="AnimatedSprite2D" parent="."]
+position = Vector2(522, 280)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceB2"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceB3" type="AnimatedSprite2D" parent="."]
+position = Vector2(620, 280)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceB3"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceB4" type="AnimatedSprite2D" parent="."]
+position = Vector2(723, 280)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceB4"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceC1" type="AnimatedSprite2D" parent="."]
+position = Vector2(418, 383)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceC1"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceC2" type="AnimatedSprite2D" parent="."]
+position = Vector2(521, 383)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceC2"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceC3" type="AnimatedSprite2D" parent="."]
+position = Vector2(623, 383)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceC3"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceC4" type="AnimatedSprite2D" parent="."]
+position = Vector2(726, 385)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceC4"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceD1" type="AnimatedSprite2D" parent="."]
+position = Vector2(418, 490)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceD1"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceD2" type="AnimatedSprite2D" parent="."]
+position = Vector2(521, 490)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceD2"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceD3" type="AnimatedSprite2D" parent="."]
+position = Vector2(624, 490)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceD3"]
+shape = SubResource("RectangleShape2D_lytfx")
+
+[node name="DiceD4" type="AnimatedSprite2D" parent="."]
+position = Vector2(729, 490)
+scale = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceD4"]
+shape = SubResource("RectangleShape2D_lytfx")
